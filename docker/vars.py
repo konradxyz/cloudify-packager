@@ -26,7 +26,7 @@ VARS = {
         ],
         "package_url": "https://aphyr.com/riemann/riemann_0.2.6_all.deb",
         "langohr_url": "https://s3-eu-west-1.amazonaws.com/gigaspaces-repository-eu/langohr/2.11.0/langohr.jar",
-        "config_url": "https://raw.githubusercontent.com/cloudify-cosmo/cloudify-manager/3.2a1/plugins/riemann-controller/riemann_controller/resources/manager.config",
+        "config_url": "https://raw.githubusercontent.com/cloudify-cosmo/cloudify-manager/3.2m1/plugins/riemann-controller/riemann_controller/resources/manager.config",
         "ports": [],
     },
     "nodejs": {
@@ -108,7 +108,7 @@ VARS = {
                 "cloudify_rest_client": "git+git://github.com/cloudify-cosmo/cloudify-rest-client.git@3.2a1",
                 "cloudify_plugins_common": "git+git://github.com/cloudify-cosmo/cloudify-plugins-common.git@3.2a1",
                 "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@1.2a1",
-                "cloudify_manager": "-b 3.2a1 https://github.com/cloudify-cosmo/cloudify-manager.git",
+                "cloudify_manager": "-b 3.2m1 https://github.com/cloudify-cosmo/cloudify-manager.git",
             },
         "workers_autoscale": "5,2",
         "ports": [],
@@ -122,7 +122,7 @@ VARS = {
         "modules": {
             "cloudify_amqp_influxdb": "git+git://github.com/cloudify-cosmo/cloudify-amqp-influxdb.git@3.2a1",
             "cloudify_dsl_parser": "git+git://github.com/cloudify-cosmo/cloudify-dsl-parser.git@3.2a1",
-            "cloudify_manager": "-b 3.2a1 https://github.com/cloudify-cosmo/cloudify-manager.git",
+            "cloudify_manager": "-b 3.2m1 https://github.com/cloudify-cosmo/cloudify-manager.git",
         },
         "manager_rest_port": "8100",
     },
