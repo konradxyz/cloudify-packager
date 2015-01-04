@@ -15,7 +15,7 @@ setup_jocker_env()
 clone_packager()
 {
   git clone https://github.com/cloudify-cosmo/cloudify-packager.git $1
-  pushd $1
+  pushd $1/cloudify-packager
     git checkout 3.2m1
   popd
 }
