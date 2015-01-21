@@ -103,10 +103,10 @@ VARS = {
             "pyzmq==14.3.1"
         ],
         "modules": {
-                "cloudify_rest_client": "git+git://github.com/cloudify-cosmo/cloudify-rest-client.git@@3.2m2",
-                "cloudify_plugins_common": "git+git://github.com/cloudify-cosmo/cloudify-plugins-common.git@@3.2m2",
-                "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@@3.2m2",
-                "cloudify_manager": "-b -b 3.2m2 https://github.com/cloudify-cosmo/cloudify-manager.git",
+                "cloudify_rest_client": "git+git://github.com/cloudify-cosmo/cloudify-rest-client.git@3.2m2",
+                "cloudify_plugins_common": "git+git://github.com/cloudify-cosmo/cloudify-plugins-common.git@3.2m2",
+                "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@3.2m2",
+                "cloudify_manager": "-b 3.2m2 https://github.com/cloudify-cosmo/cloudify-manager.git",
             },
         "workers_autoscale": "5,2",
         "ports": [],
@@ -118,9 +118,9 @@ VARS = {
             "python2.7"
         ],
         "modules": {
-            "cloudify_amqp_influxdb": "git+git://github.com/cloudify-cosmo/cloudify-amqp-influxdb.git@@3.2m2",
-            "cloudify_dsl_parser": "git+git://github.com/cloudify-cosmo/cloudify-dsl-parser.git@@3.2m2",
-            "cloudify_manager": "-b -b 3.2m2 https://github.com/cloudify-cosmo/cloudify-manager.git",
+            "cloudify_amqp_influxdb": "git+git://github.com/cloudify-cosmo/cloudify-amqp-influxdb.git@3.2m2",
+            "cloudify_dsl_parser": "git+git://github.com/cloudify-cosmo/cloudify-dsl-parser.git@3.2m2",
+            "cloudify_manager": "-b 3.2m2 https://github.com/cloudify-cosmo/cloudify-manager.git",
         },
         "ports": ["8100"],
         "persistence_path": ["/opt/manager/resources/uploaded-blueprints", "/opt/manager/resources/blueprints", "/var/log/cloudify"],
