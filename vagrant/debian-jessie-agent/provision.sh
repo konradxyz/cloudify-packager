@@ -1,5 +1,5 @@
-core_tag_name=""
-plugins_tag_name=""
+core_tag_name="3.2m7"
+plugins_tag_name="1.2m7"
 
 #installed in debian image
 #   update and install prereqs
