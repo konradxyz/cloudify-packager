@@ -130,8 +130,8 @@ function configure_shell_login
 
 INSTALL_FROM_PYPI=$1
 echo "Install from PyPI: ${INSTALL_FROM_PYPI}"
-CORE_TAG_NAME="master"
-PLUGINS_TAG_NAME="master"
+CORE_TAG_NAME="3.2rc1"
+PLUGINS_TAG_NAME="1.2rc1"
 
 set_username
 install_prereqs
