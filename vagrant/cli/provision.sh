@@ -130,6 +130,8 @@ function get_wheels
     sudo pip wheel git+https://github.com/cloudify-cosmo/cloudify-plugins-common@${CORE_TAG_NAME} --find-links=wheelhouse &&
     sudo pip wheel git+https://github.com/cloudify-cosmo/cloudify-script-plugin@${PLUGINS_TAG_NAME} --find-links=wheelhouse &&
     sudo pip wheel git+https://github.com/cloudify-cosmo/cloudify-fabric-plugin@${PLUGINS_TAG_NAME} --find-links=wheelhouse &&
+    sudo pip wheel git+https://github.com/cloudify-cosmo/cloudify-openstack-plugin@${PLUGINS_TAG_NAME} --find-links=wheelhouse &&
+    sudo pip wheel git+https://github.com/cloudify-cosmo/cloudify-aws-plugin@${PLUGINS_TAG_NAME} --find-links=wheelhouse &&    
     sudo pip wheel git+https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/cloudify-cosmo/cloudify-vsphere-plugin@${PLUGINS_TAG_NAME} --find-links=wheelhouse &&
     sudo pip wheel git+https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/cloudify-cosmo/cloudify-softlayer-plugin@${PLUGINS_TAG_NAME} --find-links=wheelhouse &&
     sudo pip wheel git+https://github.com/cloudify-cosmo/cloudify-cli@${CORE_TAG_NAME} --find-links=wheelhouse
