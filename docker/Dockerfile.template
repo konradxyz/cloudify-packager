@@ -323,9 +323,9 @@ RUN echo install dependencies && \
     \
     echo installing rest-service && \
     /bin/bash -c 'git clone {{ manager.modules.cloudify_manager }} && \
-    pushd cloudify-manager/plugins/plugin-installer && \
-    $MANAGER_VIRTUAL_ENV_DIR/bin/pip install . && \
-    popd && \
+#    pushd cloudify-manager/plugins/plugin-installer && \
+#    $MANAGER_VIRTUAL_ENV_DIR/bin/pip install . && \
+#    popd && \
     pushd cloudify-manager/rest-service && \
     $MANAGER_VIRTUAL_ENV_DIR/bin/pip install .' && \
     \
